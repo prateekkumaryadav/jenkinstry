@@ -26,7 +26,7 @@ pipeline {
 
     stage('sucess_display') {
       steps {
-        emailext(subject: 'build sucessful', body: 'dummy', from: 'prateek.student20@gmail.com', to: 'prateek.yadav@iiitb.ac.in')
+        emailext(subject: 'build sucessful', body: 'dummy', from: 'prateek.student20@gmail.com', to: 'prateek.yadav2006@gmail.com')
       }
     }
 
